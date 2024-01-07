@@ -1,0 +1,107 @@
+body{
+    background-image: url(../images/banner.png);
+    object-fit: cover;
+    height: 100vh;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-color: #1E202B;
+}
+.form{
+    position: relative;  
+}
+#searchInput{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+   
+}
+
+.btn{
+    background-color: #009AD8;
+    position: absolute;
+    left: 85%; 
+   transform: translate(-85%);
+    border: 0;
+    color: #fff;
+    margin: 3.5px 3.5px 2.5px 2.5px;
+    z-index: 2;
+}
+.btn:hover{
+    background-color: #009AD8; 
+    color: #fff;
+}
+.col-md-4 {
+    width: 400px;
+    height: 400px !important;
+   
+
+}
+.temp h1{
+    font-size: 90px;
+}
+.temp img {
+    width: 150px;
+}
+.today ,.third-day{
+    background: #323544;
+}
+.second-day{
+    background-color: #262936;
+}
+.card-header{
+    background: #2D303D;
+    color: #BFC1C8;
+}
+.second-day .card-header{
+    background: #222530;
+}
+.text{
+    color: #009AD8;
+}
+.name ,.icons{
+    color: #BFC1C8;
+}
+footer{
+background-color: #262936;
+}
+
+.contact{
+    position: relative;  
+}
+.contact .form-control{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+   
+}
+.footer-btn{
+    background-color: #009AD8;
+    position: absolute;
+    left: 40%; 
+    border: 0;
+    color: #fff;
+    margin: 3.5px 3.5px 2.5px 2.5px;
+    z-index: 2;
+}
+.footer-btn:hover{
+    background-color: #009AD8; 
+    color: #fff;
+}
+.icon{
+    color: #009AD8;
+    width: 40px;
+    height: 40px;
+    display: flex;
+  justify-content: center;
+  text-decoration: none;
+    align-items: center;
+    background-color: #222530;
+}
+
+footer p {
+    color: #ccc;
+}
